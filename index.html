@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Abhijeet Dhage - Computer Engineering Student & Software Developer Portfolio">
+    <title>Abhijeet Dhage | Portfolio</title>
+    
+    <!-- Google Fonts: Inter for a clean, professional look -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="dark-mode">
+
+    <!-- Subtle Grid Background -->
+    <div class="bg-grid"></div>
+
+    <!-- Navigation -->
+    <header class="header">
+        <nav class="navbar">
+            <a href="#" class="logo">Abhijeet<span>.</span></a>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#resume">Experience</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="nav-controls">
+                <button id="theme-toggle" aria-label="Toggle Theme">
+                    <i class="fas fa-sun"></i>
+                </button>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero section">
+        <div class="hero-content reveal">
+            <h2 class="greeting">AI Engineer</h2>
+            <h1 class="name">Abhijeet Dhage</h1>
+            <p class="hero-desc">Third Year Computer Engineering student passionate about building scalable software, innovative applications, and exploring Artificial Intelligence.</p>
+            <div class="hero-cta">
+                <a href="#projects" class="btn btn-primary">View My Work</a>
+                <a href="#contact" class="btn btn-outline">Get in Touch</a>
+            </div>
+        </div>
+        <div class="hero-image reveal">
+            <div class="img-wrapper">
+                <img src="assets/images/profile.png" alt="Abhijeet Dhage">
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about section">
+        <h2 class="section-title reveal">About <span>Me</span></h2>
+        <div class="about-container reveal">
+            <div class="about-text card">
+                <p>Currently studying in my Third Year of Computer Engineering, I thrive at the intersection of logic and creativity. My passion for software development drives me to build solutions that are not only functional but also highly optimized and user-centric.</p>
+                <p>With a strong foundation in Java and Android development, I enjoy bringing complex ideas to life on mobile platforms. I'm constantly expanding my expertise into cloud computing and Artificial Intelligence to stay ahead of the technology curve.</p>
+                <p>I possess a relentless problem-solving mindset. Whether debugging a complex application or architecting a system from scratch, I approach challenges with a structured, analytical perspective.</p>
+                <div class="stats">
+                    <div class="stat-item">
+                        <span class="stat-num" data-target="15">0</span>+
+                        <span class="stat-text">Projects Completed</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-num" data-target="5">0</span>
+                        <span class="stat-text">Core Technologies</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills section">
+        <h2 class="section-title reveal">Technical <span>Skills</span></h2>
+        <div class="skills-container reveal">
+            <div class="skill-category card">
+                <h3>Languages</h3>
+                <div class="skill-bar">
+                    <div class="skill-info">
+                        <span>Java</span>
+                        <span>90%</span>
+                    </div>
+                    <div class="progress-line"><span data-width="90%"></span></div>
+                </div>
+                <div class="skill-bar">
+                    <div class="skill-info">
+                        <span>JavaScript / HTML / CSS</span>
+                        <span>85%</span>
+                    </div>
+                    <div class="progress-line"><span data-width="85%"></span></div>
+                </div>
+                <div class="skill-bar">
+                    <div class="skill-info">
+                        <span>Python</span>
+                        <span>80%</span>
+                    </div>
+                    <div class="progress-line"><span data-width="80%"></span></div>
+                </div>
+                <div class="skill-bar">
+                    <div class="skill-info">
+                        <span>SQL</span>
+                        <span>80%</span>
+                    </div>
+                    <div class="progress-line"><span data-width="80%"></span></div>
+                </div>
+                <div class="skill-bar">
+                    <div class="skill-info">
+                        <span>C++</span>
+                        <span>75%</span>
+                    </div>
+                    <div class="progress-line"><span data-width="75%"></span></div>
+                </div>
+            </div>
+
+            <div class="skill-category card">
+                <h3>Technologies & Tools</h3>
+                <div class="tech-tags">
+                    <span class="tag"><i class="fab fa-android"></i> Android Studio</span>
+                    <span class="tag"><i class="fas fa-fire"></i> Firebase</span>
+                    <span class="tag"><i class="fas fa-database"></i> MySQL</span>
+                    <span class="tag"><i class="fab fa-git-alt"></i> Git & GitHub</span>
+                    <span class="tag"><i class="fas fa-cloud"></i> Cloud Computing</span>
+                    <span class="tag"><i class="fas fa-brain"></i> Machine Learning Basics</span>
+                    <span class="tag"><i class="fas fa-code"></i> VS Code</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects section">
+        <h2 class="section-title reveal">Featured <span>Projects</span></h2>
+        
+        <div class="project-filter reveal">
+            <button class="filter-btn active" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="ai">AI & Machine Learning</button>
+            <button class="filter-btn" data-filter="android">Android</button>
+            <button class="filter-btn" data-filter="software">Software</button>
+            <button class="filter-btn" data-filter="web">Web</button>
+        </div>
+
+        <div class="projects-grid reveal">
+            <!-- Project 1 -->
+            <div class="project-card card" data-category="android">
+                <div class="project-content">
+                    <div class="project-header">
+                        <i class="fas fa-receipt fa-2x text-accent"></i>
+                        <a href="#" aria-label="GitHub Link"><i class="fab fa-github"></i></a>
+                    </div>
+                    <h3>GST Billing App</h3>
+                    <p>A robust Android application for generating accurate GST invoices on the go. Features local database storage, offline capabilities, and instant PDF receipt generation.</p>
+                    <div class="project-tech">
+                        <span>Android</span>
+                        <span>Java</span>
+                        <span>SQLite</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project 2 -->
+            <div class="project-card card" data-category="android">
+                <div class="project-content">
+                    <div class="project-header">
+                        <i class="fas fa-calculator fa-2x text-accent"></i>
+                        <a href="#" aria-label="GitHub Link"><i class="fab fa-github"></i></a>
+                    </div>
+                    <h3>Student Mark Calculator</h3>
+                    <p>A utility application designed for university students to efficiently calculate SGPA/CGPA and forecast required marks for target academic grades.</p>
+                    <div class="project-tech">
+                        <span>Android Studio</span>
+                        <span>Java</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project 3 -->
+            <div class="project-card card" data-category="software">
+                <div class="project-content">
+                    <div class="project-header">
+                        <i class="fas fa-dice fa-2x text-accent"></i>
+                        <a href="#" aria-label="GitHub Link"><i class="fab fa-github"></i></a>
+                    </div>
+                    <h3>Snake and Ladder Game</h3>
+                    <p>A digital implementation of the classic board game, featuring interactive graphics, an algorithmic dice system, and multi-player turn-based logic.</p>
+                    <div class="project-tech">
+                        <span>Python</span>
+                        <span>Pygame</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project 4 -->
+            <div class="project-card card" data-category="web">
+                <div class="project-content">
+                    <div class="project-header">
+                        <i class="fas fa-university fa-2x text-accent"></i>
+                        <a href="#" aria-label="GitHub Link"><i class="fab fa-github"></i></a>
+                    </div>
+                    <h3>Online Banking System</h3>
+                    <p>A secure web platform simulating core banking operations, including encrypted money transfers, real-time balance inquiry, and detailed transaction history logs.</p>
+                    <div class="project-tech">
+                        <span>Java EE</span>
+                        <span>MySQL</span>
+                        <span>JSP/Servlets</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project 5 -->
+            <div class="project-card card" data-category="ai">
+                <div class="project-content">
+                    <div class="project-header">
+                        <i class="fas fa-robot fa-2x text-accent"></i>
+                        <a href="#" aria-label="GitHub Link"><i class="fab fa-github"></i></a>
+                    </div>
+                    <h3>Agentic AI System</h3>
+                    <p>An advanced artificial intelligence system designed to autonomously perform tasks, make decisions, and achieve goals using modern LLM architectures.</p>
+                    <div class="project-tech">
+                        <span>Python</span>
+                        <span>LLMs</span>
+                        <span>Agentic Workflows</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project 6 -->
+            <div class="project-card card" data-category="ai">
+                <div class="project-content">
+                    <div class="project-header">
+                        <i class="fas fa-microchip fa-2x text-accent"></i>
+                        <a href="#" aria-label="GitHub Link"><i class="fab fa-github"></i></a>
+                    </div>
+                    <h3>Nvidia NIM Integration</h3>
+                    <p>A project leveraging Nvidia NIM (Nvidia Inference Microservices) to deploy and scale AI models efficiently in production environments.</p>
+                    <div class="project-tech">
+                        <span>Nvidia NIM</span>
+                        <span>Python</span>
+                        <span>Docker</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project 7 -->
+            <div class="project-card card" data-category="ai">
+                <div class="project-content">
+                    <div class="project-header">
+                        <i class="fas fa-microphone-alt fa-2x text-accent"></i>
+                        <a href="#" aria-label="GitHub Link"><i class="fab fa-github"></i></a>
+                    </div>
+                    <h3>Jarvis AI Assistant</h3>
+                    <p>A personalized voice-activated AI assistant capable of handling desktop tasks, retrieving information, and interacting naturally with the user.</p>
+                    <div class="project-tech">
+                        <span>Python</span>
+                        <span>Speech Recognition</span>
+                        <span>NLP</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project 8 -->
+            <div class="project-card card" data-category="ai">
+                <div class="project-content">
+                    <div class="project-header">
+                        <i class="fas fa-chart-line fa-2x text-accent"></i>
+                        <a href="#" aria-label="GitHub Link"><i class="fab fa-github"></i></a>
+                    </div>
+                    <h3>Tata Steel Stock Predictor</h3>
+                    <p>A robust machine learning model designed to forecast Tata Steel stock prices based on historical financial data and market trends.</p>
+                    <div class="project-tech">
+                        <span>Jupyter</span>
+                        <span>Pandas</span>
+                        <span>Scikit-Learn</span>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+
+    <!-- Education & Resume Section -->
+    <section id="resume" class="resume section">
+        <h2 class="section-title reveal">Education & <span>Certifications</span></h2>
+        
+        <div class="resume-container reveal">
+            <div class="timeline card">
+                <h3 class="timeline-title">Academic Background</h3>
+                
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">Third Year</div>
+                    <h4>B.E. Computer Engineering</h4>
+                    <p>Currently studying core computer science algorithms, software engineering principles, and engaged in hands-on practical application development.</p>
+                </div>
+            </div>
+
+            <div class="timeline card">
+                <h3 class="timeline-title">Professional Certifications</h3>
+                
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <h4>AI & Machine Learning Foundations</h4>
+                    <p>Comprehensive study of neural networks, data preprocessing techniques, and predictive modeling algorithms.</p>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <h4>Cloud Computing Basics</h4>
+                    <p>Fundamental understanding of deployment architectures, scalable infrastructure, and modern cloud service providers.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="resume-download reveal">
+            <a href="assets/resume/cv.pdf" class="btn btn-primary btn-large" download="Abhijeet_Dhage_Resume.pdf">
+                <i class="fas fa-file-pdf"></i> Download Resume
+            </a>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section">
+        <h2 class="section-title reveal">Let's <span>Connect</span></h2>
+        <div class="contact-container reveal">
+            <div class="contact-info card">
+                <h3>Contact Information</h3>
+                <p>I am actively seeking internship opportunities, freelance projects, and professional collaborations.</p>
+                
+                <div class="info-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <span>Maharashtra, India</span>
+                </div>
+                <div class="info-item">
+                    <i class="fas fa-envelope"></i>
+                    <a href="mailto:contact@abhijeetdhage.com">contact@abhijeetdhage.com</a>
+                </div>
+                
+                <div class="social-links">
+                    <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                    <a href="#" aria-label="Twitter"><i class="fa-brands fa-x-twitter"></i></a>
+                </div>
+            </div>
+
+            <div class="contact-form card">
+                <form id="contactForm">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" placeholder="John Doe" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" placeholder="john@example.com" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" rows="4" placeholder="How can we work together?" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary w-100">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2026 Abhijeet Dhage. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Back to top button -->
+    <a href="#home" class="back-to-top" id="backToTop" aria-label="Back to Top">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+
+    <!-- Scripts -->
+    <script src="js/main.js"></script>
+</body>
+</html>
